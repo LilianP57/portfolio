@@ -216,6 +216,11 @@ main .container :nth-child(3) a {
   /* width: 600px; */
 }
 
+.competence-lp-bar h4 span {
+  text-align: end;
+  color: blue;
+}
+
 .text-percent {
   color: blue;
   position: absolute;
@@ -259,6 +264,15 @@ main .container :nth-child(3) a {
 
 .progress-bar-bootstrap {
   background-color: #6f2bf1;
+}
+
+/* Section Mes projets */
+
+h2 {
+  font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: linear-gradient(45deg, #0ff, #ff00ff);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* Bas de page */
