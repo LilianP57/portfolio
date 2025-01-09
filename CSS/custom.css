@@ -279,21 +279,11 @@ main .container :nth-child(3) a {
 
 .background-project {
   background-color: #00000015;
-  width: 100%;
-  height: 350px;
-  /* border-radius: 5%; */
   margin-bottom: 50px;
-  padding: 10px;
-}
-
-.img-project {
-
 }
 
 .card-project {
   background-color: blue;
-  /* border-radius: 0 5% 5% 0; */
-  height: 332px;
 }
 
 /* Bas de page */
