@@ -9,7 +9,7 @@
 body {
   /* background: url(background_main.jpg) no-repeat center center fixed; */
   background: linear-gradient(#1C1B1D, #1A1A1A, #1A191A) no-repeat center center fixed;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 /* Haut de page */
@@ -282,16 +282,48 @@ main .container :nth-child(3) a {
   margin-bottom: 50px;
 }
 
-.card-project {
-  background-color: blue;
+.card {
+  border: 0px !important;
 }
 
-/* Bas de page */
+.card-body p {
+  margin-top: 35px;
+  margin-bottom: 50px;
+  margin-right: 200px;
+}
+
+.card-body p span {
+  font-weight: 600;
+}
+
+/* Section CV */
+
+.cv-lp h2 {
+  font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: linear-gradient(45deg, #0ff, #ff00ff);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.icon-download-cv {
+  animation: download_cv_button 1.1s infinite alternate;
+}
+
+@keyframes download_cv_button {
+  from {
+    color: black;
+  }
+  
+  to {
+    color: black;
+    transform: scale(1.1);
+  }
+}
+
+/* Bas de page - Navbar*/
 
 footer {
-  background-color: white;
-  position: relative;
-  top: 1920px;
+  background-color: #00000015;
 }
 
 footer .logo {
@@ -299,10 +331,26 @@ footer .logo {
   font-size: 1em;
   font-weight: 500;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-/* Copyright */
+footer h3, li {
+  color: white;
+}
+
+footer h3 {
+  
+}
+
+/* Bas de page - Copyright */
+
+.copyright-bar {
+  background: linear-gradient(45deg, #0ff, #ff00ff);
+}
+
+.copyright-bar h4 {
+  font-size: 25px;
+}
 
 /* TABLETTE */
 
@@ -445,6 +493,18 @@ footer .logo {
     width: 100%;
   }
   
+/* Section Mes projets */
+
+.card-body p {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  margin-right: 0px;
+}
+
+/* Bas de page - Navbar*/
+
+/* Bas de page - Copyright */
+
 }
 
 /* MOBILE */
@@ -483,40 +543,4 @@ footer .logo {
 
   /* Section Mes compétences */
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* header .container-fluid nav ul{
-    margin-top: 10px;
-    list-style-type: none;
-    padding-left: 0;
-    text-align: end;
-}
-
-header .container-fluid nav ul li {
-    display: inline;
-    margin: 0px 10px;
-    padding: 10px 5px 10px 5px;
-}
-
-header .container-fluid nav ul li a{
-    padding: 25px;
-    display: inline-block;
-    text-decoration: none;
-} */
-
