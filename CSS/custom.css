@@ -266,37 +266,11 @@ main .container :nth-child(3) a {
   background-color: #6f2bf1;
 }
 
-/* Section Mes projets */
-
-.projects-lp h2 {
-  font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background: linear-gradient(45deg, #0ff, #ff00ff);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-top: 200px;
-  margin-bottom: 75px;
-}
-
-.background-project {
-  background-color: #00000015;
-  margin-bottom: 50px;
-}
-
-.card {
-  border: 0px !important;
-}
-
-.card-body p {
-  margin-top: 35px;
-  margin-bottom: 50px;
-  margin-right: 200px;
-}
-
-.card-body p span {
-  font-weight: 600;
-}
-
 /* Section CV */
+
+.cv-lp {
+  margin-top: 50px;
+}
 
 .cv-lp h2 {
   font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -320,10 +294,49 @@ main .container :nth-child(3) a {
   }
 }
 
+/* Section Mes projets */
+
+.projects-lp h2 {
+  font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: linear-gradient(45deg, #0ff, #ff00ff);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 150px;
+  margin-bottom: 75px;
+}
+
+.projects-lp img {
+  border-radius: .25rem 0 0 .25rem;
+}
+
+.radius-img {
+  border-radius: .25rem 0 0 .25rem;
+}
+
+.background-project {
+  /* background-color: #00000015; */
+  margin-bottom: 50px;
+}
+
+.card {
+  border: 0px !important;
+}
+
+.card-body p {
+  margin-top: 27px;
+  margin-bottom: 25px;
+  margin-right: 200px;
+}
+
+.card-body p span {
+  font-weight: 600;
+}
+
 /* Bas de page - Navbar*/
 
 footer {
   background-color: #00000015;
+  padding-top: 15px;
 }
 
 footer .logo {
@@ -334,22 +347,33 @@ footer .logo {
   color: white;
 }
 
-footer h3, li {
+footer h3 {
   color: white;
 }
 
-footer h3 {
-  
+.bloc-logo-footer {
+  margin-bottom: 25px;
+}
+
+.size-logo-footer {
+  height: 64px;
+  width: 64px;
 }
 
 /* Bas de page - Copyright */
 
 .copyright-bar {
-  background: linear-gradient(45deg, #0ff, #ff00ff);
+  background-color: #161616;
 }
 
 .copyright-bar h4 {
-  font-size: 25px;
+  font-size: 17px;
+  color: white;
+  font-family: Dosis;
+  font-weight: 200;
+  margin: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 /* TABLETTE */
@@ -503,7 +527,17 @@ footer h3 {
 
 /* Bas de page - Navbar*/
 
-/* Bas de page - Copyright */
+.projects-lp img {
+  border-radius: .25rem .25rem 0 0;
+}
+
+.radius-img {
+  border-radius: .25rem .25rem 0 0;
+}
+
+.citation-footer {
+  width: 100%
+}
 
 }
 
