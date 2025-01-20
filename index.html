@@ -34,19 +34,19 @@
                 </a>
             </h3>
 
-            <div class="nav-liens">
+            <div class="nav-links">
                 <ul>
                     <li>
-                        <a class="nav-link" href="index.html">Accueil</a>
+                        <a class="nav-item active" href="index.html">Accueil</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Mon parcours</a>
+                        <a class="nav-item" href="#desc-lp">Mon parcours</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Mes réalisations</a>
+                        <a class="nav-item" href="#projects-lp">Mes réalisations</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-item" href="#footer-lp">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -68,7 +68,7 @@
                 <div class="m-4">
                     <p class="text-center m-0 p-0">Apprenti développeur Web & Mobile</p>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center" id="desc-lp">
                     <h2 id="btn_qsj">Qui suis-je ?</h2>
                 </div>
             </div>
@@ -79,7 +79,7 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-3">
+                    <div class="col-sm-12 col-lg-3 align-content-center">
                         <img src="IMG/lilian_pdp.jpg" class="img-fluid">
                     </div>
                     <div class="col-sm-12 col-lg-3 description_lp">
@@ -165,6 +165,9 @@
                                 <h4>PhP</h4>
                                 <div class="progress-bar-php comp-percent" role="progressbar" style="width: 0;" data-percent="20%"></div>
 
+                                <h4>MySQL</h4>
+                                <div class="progress-bar-mysql comp-percent" role="progressbar" style="width: 0;" data-percent="65%"></div>
+
                             </div>
 
                         </div>
@@ -240,7 +243,7 @@
                     <h2 class="text-center">MON CV</h2>
                 </div>
 
-                <div class="text-center mt-3 icon-download-cv mb-5">
+                <div class="text-center mt-3 icon-download-cv mb-5" id="projects-lp">
                     <a target="_blank" href="./PDF/CV_Lilian_POLY.pdf"><img src="./IMG/telecharger.png"></a>
                 </div>
 
@@ -339,7 +342,7 @@
         
     </main>
     <!-- Bas de page - Navbar & Copyright -->
-    <footer>
+    <footer id="footer-lp" >
 
         <div class="container-fluid">
 
@@ -377,8 +380,4 @@
 </body>
 
 <script src="./JS/custom.js" defer></script>
-<script>
-    AOS.init();
-</script>
-
 </html>
