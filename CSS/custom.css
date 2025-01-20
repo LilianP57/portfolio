@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -82,14 +84,14 @@ main .m-4 p {
   font-family: Dosis;
 }
 
-main .container :nth-child(3) a {
+main .container :nth-child(3) h2 {
   text-decoration: None;
   color: black;
   font-weight: 400;
+  font-size: 1.1rem;
   font-family: Dosis;
   border-radius: 30px;
-  padding: 10px;
-  width: 140px;
+  padding: 10px 25px;
   background: linear-gradient(45deg, #0ff, #ff00ff);
   text-align: center;
   animation: qui_suis_je_button 1.1s infinite alternate;
@@ -376,6 +378,44 @@ footer h3 {
   padding-bottom: 4px;
 }
 
+/* MOBILE */
+
+@media screen and (max-width: 576px) {
+  body {
+    /* background: url(background_main_mobile.jpg) no-repeat center center fixed; */
+    background: linear-gradient(#1C1B1D, #1A1A1A, #1A191A) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  /* Section Navbar et Burger menu */
+
+  .nav-bar .nav-liens ul li {
+    margin: 15px 0;
+    font-size: 1.2rem;
+  }
+
+  /* Section Description */
+
+  .desc-lp div div :nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .desc-lp div div :nth-child(1) {
+    text-align: center;
+  }
+
+  .description_lp {
+    justify-items: center;
+  }
+
+  .description_lp p {
+    margin-bottom: 30px;
+  }
+
+  /* Section Mes compétences */
+
+}
+
 /* TABLETTE */
 
 @media screen and (max-width: 1024px) {
@@ -539,42 +579,9 @@ footer h3 {
   width: 100%
 }
 
+footer h3 {
+  display: none;
 }
 
-/* MOBILE */
-
-@media screen and (max-width: 576px) {
-  body {
-    /* background: url(background_main_mobile.jpg) no-repeat center center fixed; */
-    background: linear-gradient(#1C1B1D, #1A1A1A, #1A191A) no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  /* Section Navbar et Burger menu */
-
-  .nav-bar .nav-liens ul li {
-    margin: 15px 0;
-    font-size: 1.2rem;
-  }
-
-  /* Section Description */
-
-  .desc-lp div div :nth-child(2) {
-    margin-top: 30px;
-  }
-
-  .desc-lp div div :nth-child(1) {
-    text-align: center;
-  }
-
-  .description_lp {
-    justify-items: center;
-  }
-
-  .description_lp p {
-    margin-bottom: 30px;
-  }
-
-  /* Section Mes compétences */
-
 }
+
