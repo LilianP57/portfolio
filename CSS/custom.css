@@ -9,9 +9,7 @@
 /* Corps de page */
 
 body {
-  /* background: url(background_main.jpg) no-repeat center center fixed; */
   background: linear-gradient(#1C1B1D, #1A1A1A, #1A191A) no-repeat center center fixed;
-  /* background-size: cover; */
 }
 
 /* Haut de page */
@@ -226,7 +224,6 @@ main .container :nth-child(3) h2 {
   position: relative;
   top: 18px;
   left: 0;
-  /* width: 600px; */
 }
 
 .competence-lp-bar h4 span {
@@ -320,7 +317,6 @@ main .container :nth-child(3) h2 {
 }
 
 .background-project {
-  /* background-color: #00000015; */
   margin-bottom: 50px;
 }
 
@@ -395,7 +391,6 @@ footer h3 {
 
 @media screen and (max-width: 576px) {
   body {
-    /* background: url(background_main_mobile.jpg) no-repeat center center fixed; */
     background: linear-gradient(#1C1B1D, #1A1A1A, #1A191A) no-repeat center center fixed;
     background-size: cover;
   }
@@ -433,7 +428,6 @@ footer h3 {
 
 @media screen and (max-width: 1024px) {
   body {
-    /* background: url(background_main_tablet.jpg) no-repeat center center fixed; */
     background: linear-gradient(#1C1B1D, #1A1A1A, #1A191A) no-repeat center center fixed;
     background-size: cover;
   }
