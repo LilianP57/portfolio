@@ -420,8 +420,6 @@ footer h3 {
     margin-bottom: 30px;
   }
 
-  /* Section Mes compétences */
-
 }
 
 /* TABLETTE */
@@ -430,6 +428,7 @@ footer h3 {
   body {
     background: linear-gradient(#1C1B1D, #1A1A1A, #1A191A) no-repeat center center fixed;
     background-size: cover;
+    overflow-x: hidden;
   }
 
   /* Section Navbar et Burger menu */
@@ -570,6 +569,10 @@ footer h3 {
   margin-top: 0px;
   margin-bottom: 25px;
   margin-right: 0px;
+}
+
+.radius-img img {
+  width: 100%;
 }
 
 /* Bas de page - Navbar*/

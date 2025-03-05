@@ -1,5 +1,10 @@
-AOS.init();
-
+AOS.init({
+    disable: function() {
+      var maxWidth = 992;
+      return window.innerWidth < maxWidth;
+    }
+  });
+  
 // Menu burger
 
 const menuHamburger = document.querySelector(".burger_menu")
